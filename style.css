@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+:root{
+    --main-color: #ffae00 
+}
+body{
+    background-color: #f1f1f1 !important;
+}
+::-webkit-scrollbar{
+    width: 4px;
+    background-color: #f2f2f2;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color) !important;
+    border-radius: 50px !important;
+}
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+  
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.5;
+}
+
+
+#header{
+    background: linear-gradient(to bottom right, #00000073, #00000048), url(img/header-bc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+#navbar{
+    background: none ;
+    transition: all 0.5s ease-in;
+    
+}
+
+/* #navbar + .fixed-top{
+    background-color: #f6a00057;
+    backdrop-filter: blur(8px);
+} */
+.bg-blur{
+    background-color: #38383867 !important ;
+    backdrop-filter: blur(8px);
+}
+.navbar-brand span{
+    color: var(--main-color) !important;
+    margin-left: -5px;
+}
+.nav-item{
+    margin: 0 20px;
+    font-size: 20px;
+}
+.nav-item a{
+    color: #fff !important;
+    transition: all 0.4s;
+}
+.nav-item a:hover{
+    color: var(--main-color) !important;
+}
+.nav-item .active{
+    color: var(--main-color) !important;
+}
+
+#promo-title{
+    padding-top: 200px;
+}
+#promo-title span{
+    color: var(--main-color);
+}
+.button{
+    color: var(--main-color) !important;
+    height: 50px;
+    border-radius: 0 !important;
+    border: none;
+    background-color: #a8a8a826 !important;
+    font-weight:bold;
+    color: var(--main-color);
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s;
+    outline: none !important;
+}
+ .button p{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    left: -150%;
+    transition: all 0.8s;
+    top: 10px;
+}
+ .button::after{
+    content: '';
+    color: none;
+    background-color: var(--main-color);
+    position: absolute;
+    height: 50px;
+    width: 0;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+ .button:hover::after{
+    width: 100%;
+}
+.button:hover  p{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.line{
+    width: 50px;
+    height: 2px;
+    background-color: var(--main-color);
+}
+
+#services .card .fas{
+    color: var(--main-color) !important;
+}
+.card {
+    background-color: #fff;
+    border-radius: 0 !important;
+    border-bottom-color: var(--main-color) !important;
+    padding: 1.5rem;
+    transition: all 0.5s !important;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.card:hover{
+    box-shadow: 0px 10px 3rem rgba(0, 0, 0, 0.301);
+    
+}
+.aboutme .overflow-hidden{
+    height: 500px;
+}
+.aboutme ul li{
+    font-size: 20px;
+}
+.aboutme ul li span{
+    color: var(--main-color);
+    margin-right: 25px;
+}
+.aboutme ul li span i{
+    margin-right: 10px;
+}
+
+.myskills img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.myskills p{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-top: 2rem;
+}
+
+#portfolio h4{
+    color: var(--main-color);
+}
+#portfolio .img-port{
+    overflow: hidden !important;
+    position: relative;
+}
+#portfolio img{
+    transition: all 0.5s;
+}
+#portfolio .img-port:hover img{
+    transform: scale(1.1);
+}
+#portfolio .link{
+
+    font-size: 20px;
+    position: absolute;
+    top: 80%;
+    left: -100%;
+    background-color: #ffae008a;
+    transition: all 0.5s;
+
+
+}
+#portfolio .link a{
+    color: #fff !important;
+    text-decoration: none;
+}
+
+#portfolio .img-port:hover .link{
+    left: 10%;
+}
+#portfolio .git .display-6{
+    color: var(--main-color);
+}
+#portfolio .git .button{
+    padding-top: 13px;
+}
+
+footer{
+    background-color: #181818;
+    padding: 3rem;
+    padding-bottom: 5px;
+}
+footer .display-6 {
+    color: #fff;
+}
+footer .display-6 span{
+    color: var(--main-color);
+}
+footer .rounded-circle{
+    background-color: #000;
+    border: 1px solid #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+footer .rounded-circle a {
+    color: #fff;
+    transition: all 0.5s;
+}
+
+footer .rounded-circle:hover a{
+    color: var(--main-color);
+}
+footer .rounded-circle:hover {
+    border-color: var(--main-color);
+}
+footer .navbar-brand {
+    margin: 0;
+    padding: 0;
+    width: 75% !important;
+}

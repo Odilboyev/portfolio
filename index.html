@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+    <title>My portfolio</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbar">
+
+    <div id="particles-js"></div>
+
+    <div id="header">
+
+        <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">Portfo <span>lio</span> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse w-75" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#myskills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                 
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+
+          <div id="promo-title">
+                <div class="container">
+                    <div class="col-md-8 text-white">
+                        <p class="display-2 ">Samandar <span>Odilboyev</span></p>
+                        <p class="display-4">Frontend <span>Developer</span> </p>
+                        <button class="btn btn-lg button"><p>O'qing</p> Men haqimda</button>
+                    </div>
+                </div>
+          </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container my-5 text-center">
+            <h4 class="display-6">My services</h4>
+            <div class="line m-auto mb-4"></div>
+            
+            <div class="row row-cols-1 row-cols-md-3">
+                
+                <div class="col" >
+                <div class="card text-center" data-aos="fade-up">
+                    <i class="fas fa-laptop-code fa-3x m-4"></i>
+                    <h2 class="card-title">Frontend development</h2>
+                    <div class="card-body"><p>Men saytning frontend qismini tuzish bilan shug'ullanaman</p></div>
+                </div>
+                </div>
+                
+                <div class="col"  >
+                    <div class="card text-center"data-aos="fade-up">
+                        <i class="fas fa-mobile-alt fa-3x m-4"></i>
+                        <h2 class="card-title">Responsive design</h2>
+                        <div class="card-body"><p>Tuzgan saytimning moslashuvchanligiga (Mobil qurilmaga ham mosh kelishiga) javob berman</p></div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-center" data-aos="fade-up" >
+                        <i class="fas fa-pencil-ruler fa-3x m-4"></i>
+                        <h2 class="card-title">UI/UX</h2>
+                        <div class="card-body"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, odio? Velit quas eius dolore cupiditate eaque quidem suscipit alias veritatis?</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="my-5 container">
+      <div id="aboutme" class="aboutme row">
+          <div class="col-md-6 overflow-hidden" data-aos="fade-right">
+            <img src="img/me.jpg" class="w-100">
+          </div>
+          <div class="col-md-6" data-aos="fade-left">
+            <p class="display-6 text-center my-3 about-t">
+              Men haqimda
+            </p>
+            <div class="line m-auto mb-2"></div>
+            <p class="text-center font-weight-bold">Assalomu alaykum. Mening ismim Samandar. Yoshim 15 da. Bu mening portfolio saytim, bu yerda mening ishlarimni ko'rishingiz mumkin</p>
+
+            <ul class="list-unstyled text-left w-75 m-auto">
+              <li class="d-flex flex-wrap"> <span><i class="fas fa-user"></i>Ism:</span> <p>Samandar</p></li>
+
+              <li class="d-flex flex-wrap"> <span><i class="fa fa-calendar"></i></i>Tug'ilgan sana: </span> <p>2005.03.19</p></li>
+
+              <li class="d-flex flex-wrap"> <span><i class="fas fa-map-marker-alt"></i></i>Manzil:</span> <p>Chirchiq, Toshkent, O'zbekiston</p></li>
+
+              <li class="d-flex flex-wrap"> <span><i class="far fa-envelope"></i>Email</span> <p>samandarodilboyev@gmail.com</p></li>
+
+            </ul>
+          </div>
+      </div>
+      <div id="myskills" class="myskills my-5" data-aos="zoom-in-up">
+        <div class="container text-center">
+          <h2 class="display-6 my-3">Men mana bu texnologiyalardan foydalanaman</h2>
+          <div class="line m-auto mb-3"></div>
+          <div class="row">
+            <div class="col-md"><img src="img/html-5.svg" alt=""><p> HTML </p></div>
+            <div class="col-md"><img src="img/css-3.svg" alt=""><p> CSS </p></div>
+            <div class="col-md"><img src="img/icons8-javascript.svg" alt=""><p> JavaScript </p></div>
+            <div class="col-md"><img src="img/icons8-jquery.svg" alt=""><p> jQuery</p></div>
+            <div class="col-md"><img src="img/bootstrap-5-seeklogo.com.svg" alt=""><p> Bootstrap </p></div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div id="portfolio">
+    <div class="container text-center">
+      <p class="display-6">Portfolio</p>
+      <div class="line m-auto"></div>
+
+      <div class="row my-3">
+        <div class="col-md-6 img-port" data-aos="zoom-in-right">
+          <img src="img/sanavbar.png"  class="w-100">
+          <div class="link"> <a href="https://sanavbar.ml" target="_black">Saytga havola</a></div>
+        </div>
+
+        <div class="col-md-6 text-center py-5" data-aos="zoom-in-left">
+          <h4>Sanavbar</h4>
+          <p class="px-5">Qashqadaryo viloyati, Qarshi shahrida joylashgan Sanavbar kitoblar do'koni uchun tuzilgan saytning frontend qismi  <a href="https://sanavbar.ml" target="_black">Saytga havola</a></p>
+        </div>
+
+       
+        <div class="col-md-6 text-center py-5" data-aos="zoom-in-right">
+          <h4>3D-Cube</h4>
+          <p class="px-5">Videoni ijro qiluvchi 3D shakldagi 'quti' <a href="https://odilboyev.github.io/3D-cube/" target="_black">Saytga havola</a></p>
+        </div>
+
+        <div class="col-md-6 img-port" data-aos="zoom-in-left">
+            <img src="img/3d.png"  class="w-100">
+            <div class="link"> <a href="https://odilboyev.github.io/3D-cube/" target="_black">Saytga havola</a></div>
+        </div>
+
+        <div class="m-auto text-center git my-5">
+            <p class="display-6">Ko'proq ishlar GitHub akkountimda</p>
+            <a href="https://github.com/Odilboyev/" class="btn button">GitHub akkount <p>Kirish</p></a>
+            <div class="line m-auto my-2"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 p-3 text-center">
+        <p class="display-6 m-auto">Samandar <span>Odilboyev</span> </p>
+      </div>
+      <div class="col-md-4 p-3 text-center">
+        <p class="h5 text-light my-4">Men bilan bog'lanish</p>
+        <div class="d-flex justify-content-around">
+          <div class="rounded-circle">
+            <a href="https://t.me/developer_frontender" target="black"><i class="fab fa-telegram fa-2x"></i></a>
+          </div>
+
+          <div class="rounded-circle">
+            <a href="https://www.instagram.com/samandar_odilboyev/" target="black"><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
+
+          <div class="rounded-circle">
+            <a href="https://github.com/Odilboyev" target="black"><i class="fab fa-github fa-2x"></i></a>
+          </div>
+
+          <div class="rounded-circle">
+            <a href="tel:+998917760298"><i class="fas fa-phone fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 px-3">
+        <nav id="navbar" class="navbar navbar-dark text-center">
+          <div class="container">
+            <a class="navbar-brand w-75 m-auto" href="#">Portfo <span>lio</span> </a>
+            
+            <div class="m-auto w-75" >
+              <ul class="navbar-nav m-auto ">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#myskills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+               
+              </ul>
+             
+            </div>
+          </div>
+        </nav>
+
+      </div>
+
+    </div>
+  </div>
+  <div class="w-100  text-center text-light text-uppercase">copyright© 2020-2021 | Web site made by Samandar 0dilboyev </div>
+</footer>
+
+  <!-- my js -->
+  <script src="main.js"></script>
+  <!-- particles -->
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+    <!-- AOS SCROLL  -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+ <script>
+   AOS.init({
+    useClassNames: true,
+    initClassName: false,
+    animatedClassName: 'animated',
+    delay: 50, 
+    duration: 600, 
+    easing: 'ease'
+  });
+ </script>
+    <!-- Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>
