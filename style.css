@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
 :root{
-    --main-color: #ffae00 
+    --main-color: #00fff2;
 }
 body{
     color: #f2f2f2;
     background-color: #181818 !important;
     overflow-x: hidden;
+    
 }
 
 *{
@@ -46,7 +47,7 @@ p, h4, h2{
 }
 #header{
     max-width: 100% !important;
-    background: linear-gradient(to bottom right, #00000073, #00000048), url(img/header-bc.jpg);
+    background: linear-gradient(to bottom right, #00000085, #00000048), url(img/header-bc.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -90,7 +91,8 @@ p, h4, h2{
     padding-top: 200px;
 }
 #promo-title span{
-    color: var(--main-color);
+    /* color: var(--main-color); */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
 }
 .button{
     color: var(--main-color) !important;
@@ -108,7 +110,8 @@ p, h4, h2{
  .button p{
     position: absolute;
     top: 0;
-    color: #fff;
+    color: #001aff;
+    font-weight: bold;
     left: -150%;
     transition: all 0.8s;
     top: 10px;
@@ -154,11 +157,12 @@ p, h4, h2{
     margin-bottom: 1rem;
 }
 .card:hover{
-    box-shadow: 0px 10px 3rem rgba(255, 255, 255, 0.301);
+    box-shadow: 0px 5px 50px 10px #00c0f0c7;
+    transform: translateY(-15px) !important;
     
 }
 .aboutme .overflow-hidden{
-    height: 500px;
+    
 }
 
 .aboutme ul li span{
@@ -195,12 +199,12 @@ p, h4, h2{
     transform: scale(1.1);
 }
 #portfolio .link{
-
+    padding: 1rem;
     font-size: 20px;
     position: absolute;
     top: 80%;
     left: -100%;
-    background-color: #ffae008a;
+    background-color: #00fff294;
     transition: all 0.5s;
 
 
