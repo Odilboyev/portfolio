@@ -3,12 +3,17 @@
     --main-color: #ffae00 
 }
 body{
-    background-color: #f1f1f1 !important;
+    color: #f2f2f2;
+    background-color: #181818 !important;
     overflow-x: hidden;
 }
+
 *{
     margin: 0;
     padding: 0;
+}
+p, h4, h2{
+    color: #f2f2f2;
 }
 ::-webkit-scrollbar{
     width: 4px;
@@ -140,7 +145,7 @@ body{
     color: var(--main-color) !important;
 }
 .card {
-    background-color: #fff;
+    background-color: #101010 !important;
     border-radius: 0 !important;
     border-bottom-color: var(--main-color) !important;
     padding: 1.5rem;
@@ -149,7 +154,7 @@ body{
     margin-bottom: 1rem;
 }
 .card:hover{
-    box-shadow: 0px 10px 3rem rgba(0, 0, 0, 0.301);
+    box-shadow: 0px 10px 3rem rgba(255, 255, 255, 0.301);
     
 }
 .aboutme .overflow-hidden{
@@ -216,7 +221,7 @@ body{
 }
 
 footer{
-    background-color: #181818;
+    background-color: #101010;
     padding: 3rem;
     padding-bottom: 5px;
 }
